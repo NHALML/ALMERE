@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Almere</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+<style>
+#content{
+display: flex;
+padding-top: 200px;
+padding-bottom: 5px;
+}
+[class*="col-"]{
+width: 100%;
+}
+@media only screen and (min-width: 600px){
+[class*="col-"]{
+float: left;
+padding: 20px;
+}
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+}
+header{
+width: 100%; height: 150px; 
+background-color: red; 
+position: fixed; 
+padding: 20px;
+background-image: url(skyline.jpg); 
+background-size: 35% 75%; 
+background-position: 15px;
+background-repeat: no-repeat; 
+}
+.tekst{
+  font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 2px;
+}
+body{
+background-color: grey;
+}@media only screen and (min-width:600px){
+body{
+background-color: black;
+}@media only screen and (min-width:992px){
+}
+}
+#een{
+width: 20%;
+background-color: white;
+display: flex;
+}
+#twee{
+width: 80%;
+background-color: rgb(29, 29, 235, 0.808);
+color: white;
+min-height: 400px;
+display: flex;
+padding-right: 5px;
+margin-left: 5px;
+}
+img{
+float: right;
+width: 35%;
+margin-left: 5px;
+margin-bottom: 5px;
+border-radius: 5px;
+border: 2px solid white;
+padding: 5px;
+}
+.kolom{
+width: 400px;
+margin-right: 2px;
+display: inline-block;
+}
+.kolom1{
+width: 500px;
+margin-left: 35px;
+margin-right: 20px;
+display: inline-block;
+}
+section{
+padding: 5px;
+display: flex;
+}
+.li{
+margin-left: 20px;
+}
+footer{
+width: 100%; height: 150px; background-color: #ffcc00;
+}
+</style>
+</head>
+<body>
+<header>
+<div class="header">
+<h1 class="tekst">ALMERE</h1>
+</div>
+</header>
+<div id="content">
+<section id="een">
+<div class="kolom">
+<h4>FEITEN:</h4>
+<ul>
+<li>Provincie Flevoland</li>
+<li>Groene stad</li>
+<li>Gooimeer</li>
+<li>A6 en openbaar vervoer</li>
+<li>Burgermeester Hein van de Loo</li>
+</ul>
+</div>
+</section>
+<section id="twee">
+<div class="kolom1">
+<h4>DE GROENE KATHEDRAAL</h4>
+<p><img src="groenekathedraal.jpg" alt="">
+Het is al geruime tijd een bekend gegeven dat een lezer, tijdens het bekijken van de layout van een pagina, afgeleid wordt door de 
+tekstuele inhoud. Het belangrijke punt van het gebruik van Lorem Ipsum is dat het uit een min of meer normale verdeling van letters 
+bestaat, in tegenstelling tot "Hier uw tekst, hier uw tekst" wat het tot min of meer leesbaar nederlands maakt. Veel desktop publishing 
+pakketten en web pagina editors gebruiken tegenwoordig Lorem Ipsum als hun standaard model tekst, en een zoekopdracht naar "lorem ipsum"
+ontsluit veel websites die nog in aanbouw zijn. Verscheidene versies hebben zich ontwikkeld in de loop van de jaren, soms per ongeluk 
+soms expres (ingevoegde humor en dergelijke).
+</P>
+</div>
+<div class="kolom1">
+<h4>RONDVAART</h4>
+<p><img src="rondvaart.jpg" alt="">
+Er zijn vele variaties van passages van Lorem Ipsum beschikbaar maar het merendeel heeft te lijden gehad van wijzigingen in een of 
+andere vorm, door ingevoegde humor of willekeurig gekozen woorden die nog niet half geloofwaardig ogen. Als u een passage uit Lorum 
+Ipsum gaat gebruiken dient u zich ervan te verzekeren dat er niets beschamends midden in de tekst verborgen zit. Alle Lorum Ipsum 
+generators op Internet hebben de eigenschap voorgedefinieerde stukken te herhalen waar nodig zodat dit de eerste echte generator is op 
+internet. Het gebruikt een woordenlijst van 200 latijnse woorden gecombineerd met een handvol zinsstructuur modellen om een Lorum Ipsum 
+te genereren die redelijk overkomt. De gegenereerde Lorum Ipsum is daardoor altijd vrij van herhaling, ingevoegde humor of 
+ongebruikelijke woorden etc.
+</p>
+</div>
+</section>
+</div>
+<footer></footer> 
+</body>
+</html>
